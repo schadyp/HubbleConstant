@@ -1,1 +1,0 @@
-https://mybinder.org/v2/gh/schadyp/HubbleConstant.git/master
