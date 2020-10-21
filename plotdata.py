@@ -22,11 +22,11 @@ def plotspec(spec1,spec2,spec3,spec4,n1=10,n2=15,n3=4,n4=10,lab1='NGC4258',lab2=
     plt.legend(fontsize=fs)
 
 #------------------------------------------------------------------------
-def HubbleDiagram(D,z,m='o',col='r'):
+def HubbleDiagram(D,z,m='o',col='r',line='none'):
     
     plt.xlabel("Distance (Mpc)",size=20)
     plt.ylabel("Recession Velocity (km/s)",size=20)
-    plt.plot(D,z,marker=m,c=col,ls='none',ms=10)
+    plt.plot(D,z,marker=m,c=col,ls=line,ms=10)
     
 #------------------------------------------------------------------------
 def linfit(xdata, ydata, norm = 0, pinit=[70.0]):
